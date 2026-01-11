@@ -15,10 +15,12 @@ All notable changes to this project will be documented in this file.
 
 - Add i18n on the 404 page and better project structure
 - Run findCity on an `Enter` keydown for better UX
+- Add favicons for all browsers
 
 ### Miscellaneous Tasks
 
 - Add CLI script to convert license plate text file to JSON
+- Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
@@ -31,11 +33,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 13 commit(s) contributed to the release.
-- 19 day(s) passed between the first and last commit.
-- 13 commit(s) parsed as conventional.
+- 15 commit(s) contributed to the release.
+- 37 day(s) passed between the first and last commit.
+- 15 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 19 day(s) passed between releases.
+- 37 day(s) passed between releases.
 
 ## 1.2.0 - 2025-12-05
 
