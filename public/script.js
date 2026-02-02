@@ -1,6 +1,5 @@
 const translations = {
   da: {
-    title: "Tyske Nummerplader",
     heading: "Indtast en byforkortelse!",
     placeholder: "Fx HH, B, M",
     button: "Søg",
@@ -12,7 +11,6 @@ const translations = {
     resultTemplate: "{input} er forkortelsen for {city}"
   },
   en: {
-    title: "German License Plates",
     heading: "Enter a city abbreviation!",
     placeholder: "e.g. HH, B, M",
     button: "Search",
@@ -24,7 +22,6 @@ const translations = {
     resultTemplate: "{input} is the abbreviation for {city}"
   },
   de: {
-    title: "Deutsche Kennzeichen",
     heading: "Geben Sie eine Stadtkennzeichnung ein!",
     placeholder: "z.B. HH, B, M",
     button: "Suchen",
