@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Bug Fixes
+
+- Make title always display 'CBP'
+
 ### Documentation
 
 - Add .release-it.json to structure and complete release-it
@@ -29,6 +33,7 @@ All notable changes to this project will be documented in this file.
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
 - Make Cliff skip updating changelog
+- Update CHANGELOG.md [skip ci]
 
 ### Refactor
 
@@ -37,9 +42,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 19 commit(s) contributed to the release.
+- 21 commit(s) contributed to the release.
 - 59 day(s) passed between the first and last commit.
-- 19 commit(s) parsed as conventional.
+- 21 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 59 day(s) passed between releases.
 
