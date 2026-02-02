@@ -26,18 +26,20 @@ All notable changes to this project will be documented in this file.
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
+- Update CHANGELOG.md [skip ci]
 
 ### Refactor
 
 - Rename project to CityByPlate
+- Add all needed data to site.webmanifest
 
 ### Commit Statistics
 
-- 15 commit(s) contributed to the release.
-- 37 day(s) passed between the first and last commit.
-- 15 commit(s) parsed as conventional.
+- 17 commit(s) contributed to the release.
+- 59 day(s) passed between the first and last commit.
+- 17 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 37 day(s) passed between releases.
+- 59 day(s) passed between releases.
 
 ## 1.2.0 - 2025-12-05
 
