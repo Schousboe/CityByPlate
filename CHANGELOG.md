@@ -27,6 +27,8 @@ All notable changes to this project will be documented in this file.
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
+- Update CHANGELOG.md [skip ci]
+- Make Cliff skip updating changelog
 
 ### Refactor
 
@@ -35,9 +37,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 17 commit(s) contributed to the release.
+- 19 commit(s) contributed to the release.
 - 59 day(s) passed between the first and last commit.
-- 17 commit(s) parsed as conventional.
+- 19 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 59 day(s) passed between releases.
 
