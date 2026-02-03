@@ -35,6 +35,8 @@ All notable changes to this project will be documented in this file.
 - Make Cliff skip updating changelog
 - Update CHANGELOG.md [skip ci]
 - Update CHANGELOG.md [skip ci]
+- Update CHANGELOG.md [skip ci]
+- Add colours for debugging in Node.js
 
 ### Refactor
 
@@ -47,9 +49,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 23 commit(s) contributed to the release.
+- 25 commit(s) contributed to the release.
 - 60 day(s) passed between the first and last commit.
-- 23 commit(s) parsed as conventional.
+- 25 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 60 day(s) passed between releases.
 
