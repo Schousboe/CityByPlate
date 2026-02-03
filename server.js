@@ -2,13 +2,24 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
+const colours = {
+  reset: "\x1b[0m",
+  black: "\x1b[30m",
+  red: "\x1b[31m",
+  green: "\x1b[32m",
+  yellow: "\x1b[33m",
+  blue: "\x1b[34m",
+  white: "\x1b[37m",
+  gray: "\x1b[90m",
+}
+
 // Secure certificate check
 function safeRead(file) {
   try {
     return fs.readFileSync(path.join(__dirname, file));
   } catch (err) {
-    console.error('ERR_CERT_MISSING'); // short code for logs
-    console.error('Required TLS files not found.');
+    console.error(colours.red,'ERR_CERT_MISSING', colours.reset); // short code for logs
+    console.error(colours.yellow, 'Required TLS files not found.', colours.reset);
     process.exit(1); // abort startup
   }
 }
@@ -55,7 +66,7 @@ https.createServer(options, (req, res) => {
 
   fs.exists(filePath, (exists) => {
     if (!exists) {
-      console.error(`ERROR: 404 NOT FOUND - ${filePath}`);
+      console.error(colours.red, `ERROR: 404 NOT FOUND - ${filePath}`, colours.reset);
 
       const PUBLIC_DIR = path.join(__dirname, 'public');
       const notFoundPage = path.join(PUBLIC_DIR, '404.html');
@@ -88,5 +99,5 @@ https.createServer(options, (req, res) => {
     });
   });
 }).listen(PORT, () => {
-  console.log(`HTTPS server starting at https://localhost:${PORT}/`);
+  console.log(colours.green, `HTTPS server started at https://localhost:${PORT}/`, colours.reset);
 });
