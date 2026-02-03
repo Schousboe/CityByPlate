@@ -34,19 +34,24 @@ All notable changes to this project will be documented in this file.
 - Update CHANGELOG.md [skip ci]
 - Make Cliff skip updating changelog
 - Update CHANGELOG.md [skip ci]
+- Update CHANGELOG.md [skip ci]
 
 ### Refactor
 
 - Rename project to CityByPlate
 - Add all needed data to site.webmanifest
 
+### Styling
+
+- Add shell script for SSL cert
+
 ### Commit Statistics
 
-- 21 commit(s) contributed to the release.
-- 59 day(s) passed between the first and last commit.
-- 21 commit(s) parsed as conventional.
+- 23 commit(s) contributed to the release.
+- 60 day(s) passed between the first and last commit.
+- 23 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 59 day(s) passed between releases.
+- 60 day(s) passed between releases.
 
 ## 1.2.0 - 2025-12-05
 
