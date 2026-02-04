@@ -39,6 +39,8 @@ All notable changes to this project will be documented in this file.
 - Add colours for debugging in Node.js
 - Update CHANGELOG.md [skip ci]
 - Make OpenSSL cert generation non-interactive
+- Update CHANGELOG.md [skip ci]
+- Add a finishing echo for better UX
 
 ### Refactor
 
@@ -51,9 +53,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 27 commit(s) contributed to the release.
+- 29 commit(s) contributed to the release.
 - 61 day(s) passed between the first and last commit.
-- 27 commit(s) parsed as conventional.
+- 29 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 61 day(s) passed between releases.
 
