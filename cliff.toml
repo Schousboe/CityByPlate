@@ -54,6 +54,9 @@ filter_unconventional = false
 # Assigns commits to groups.
 # Optionally sets the commit's scope and can decide to exclude commits from further processing.
 commit_parsers = [
+    { message = "\\[skip ci\\]", skip = true, regex = true },
+
+
     { message = "^feat", group = "Features" },
     { message = "^fix", group = "Bug Fixes" },
     { message = "^doc", group = "Documentation" },
@@ -63,7 +66,6 @@ commit_parsers = [
     { message = "^test", group = "Testing" },
     { message = "^chore\\(release\\): prepare for", skip = true },
     { message = "^chore", group = "Miscellaneous Tasks" },
-    { message = "Update CHANGELOG.md [skip ci]", skip = true },
     { body = ".*security", group = "Security" },
     { body = ".*", group = "Other (unconventional)" },
 ]
