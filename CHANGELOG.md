@@ -24,23 +24,11 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Add CLI script to convert license plate text file to JSON
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
 - Make Cliff skip updating changelog
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
-- Update CHANGELOG.md [skip ci]
 - Add colours for debugging in Node.js
-- Update CHANGELOG.md [skip ci]
 - Make OpenSSL cert generation non-interactive
-- Update CHANGELOG.md [skip ci]
 - Add a finishing echo for better UX
+- Update commit_parsers in cliff.toml to make sure [SKIP CI] isn't getting in changelog
 
 ### Refactor
 
@@ -53,11 +41,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 29 commit(s) contributed to the release.
-- 61 day(s) passed between the first and last commit.
-- 29 commit(s) parsed as conventional.
+- 17 commit(s) contributed to the release.
+- 62 day(s) passed between the first and last commit.
+- 17 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 61 day(s) passed between releases.
+- 62 day(s) passed between releases.
 
 ## 1.2.0 - 2025-12-05
 
