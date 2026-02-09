@@ -51,28 +51,5 @@ add_section "Documentation" "$DOCS"
 add_section "Tests" "$TESTS"
 add_section "CI" "$CI"
 
-BODY+="---\n\n# File Changes\n\n"
-
-# File diff
-ADDED=$(git diff --name-only --diff-filter=A HEAD^ HEAD || true)
-CHANGED=$(git diff --name-only --diff-filter=M HEAD^ HEAD || true)
-DELETED=$(git diff --name-only --diff-filter=D HEAD^ HEAD || true)
-
-add_file_section() {
-  local TITLE=$1
-  local FILES=$2
-  if [ -n "$FILES" ]; then
-    BODY+="## ${TITLE}\n"
-    while IFS= read -r line; do
-      BODY+="- ${line}\n"
-    done <<< "$FILES"
-    BODY+="\n"
-  fi
-}
-
-add_file_section "Added" "$ADDED"
-add_file_section "Changed" "$CHANGED"
-add_file_section "Deleted" "$DELETED"
-
 echo -e "$BODY" > RELEASE_BODY.md
 echo "✅ RELEASE_BODY.md generated"
