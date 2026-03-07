@@ -2,3 +2,11 @@
 
 server.key
 server.cert
+
+# Node
+
+node_modules
+
+# CF
+
+.wrangler
