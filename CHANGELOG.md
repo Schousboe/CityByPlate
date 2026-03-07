@@ -8,13 +8,17 @@ All notable changes to this project will be documented in this file.
 
 - Remove the file changes section from release body
 
+### Other (unconventional)
+
+- Delete .release-it.json as another alternative already exists in the codebase
+
 ### Commit Statistics
 
-- 1 commit(s) contributed to the release.
-- 0 day(s) passed between the first and last commit.
+- 2 commit(s) contributed to the release.
+- 15 day(s) passed between the first and last commit.
 - 1 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 4 day(s) passed between releases.
+- 19 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
