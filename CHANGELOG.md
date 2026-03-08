@@ -7,18 +7,30 @@ All notable changes to this project will be documented in this file.
 ### Bug Fixes
 
 - Remove the file changes section from release body
+- Display document.title at all times
+- Forgot to add betterlytics.io script to 404.html
+
+### Features
+
+- Add health.js for a JSON response at /health
+
+### Miscellaneous Tasks
+
+- Add forgotten readme update to cloudflare-hosting
+- Add analytics with betterlytics.io
 
 ### Other (unconventional)
 
 - Delete .release-it.json as another alternative already exists in the codebase
+- Migrate Node server to Cloudflare Pages functions
 
 ### Commit Statistics
 
-- 2 commit(s) contributed to the release.
-- 15 day(s) passed between the first and last commit.
-- 1 commit(s) parsed as conventional.
+- 8 commit(s) contributed to the release.
+- 27 day(s) passed between the first and last commit.
+- 7 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 19 day(s) passed between releases.
+- 31 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
