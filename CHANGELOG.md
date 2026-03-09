@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 - Add health.js for a JSON response at /health
+- Add system status page adhere to it in script.js error handling
 
 ### Miscellaneous Tasks
 
@@ -31,9 +32,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 10 commit(s) contributed to the release.
+- 11 commit(s) contributed to the release.
 - 28 day(s) passed between the first and last commit.
-- 9 commit(s) parsed as conventional.
+- 10 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 32 day(s) passed between releases.
 
