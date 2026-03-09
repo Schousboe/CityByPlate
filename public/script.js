@@ -83,6 +83,13 @@ async function findCity() {
 
   } catch (err) {
     error.textContent = translations[currentLanguage].error;
+
+    const statusMessage = document.createElement("span");
+    const appendedError = ' Visit our <u><a target="_blank" class="error" href="/status">system status</a></u> page for more info.';
+    statusMessage.innerHTML = appendedError;
+
+    error.appendChild(statusMessage);
+
     console.error(err);
   }
 }
