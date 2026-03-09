@@ -3,10 +3,9 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-A lightweight web application that allows users to look up the first 2 letters of a german license plate and find out which **city or district** they represent.
+A lightweight web application that allows users to look up the first letters on a german license plate (district code) and find out which **city or district** they represent.
 
 ---
 
@@ -29,7 +28,6 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
 ## Technologies Used
 
 - **Vanilla JavaScript** - Core logic/Fetching and displaying data
-- **Node.js** - For starting up the HTTPS server and reading the SSL certificates
 - **JSON** - Data source for license plate codes  
 
 ---
@@ -38,28 +36,33 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
 
 ```
 . 
-├── .github 
-│   └── workflows 
-│       ├── release.yml 
-│       └── update-changelog.yml 
-├── .gitignore 
-├── .release-it.json 
-├── CHANGELOG.md 
-├── LICENSE 
-├── README.md 
-├── cliff.toml 
-├── data 
-│   ├── numberplates.json 
-│   └── numberplates.txt 
-├── public 
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── cliff.toml
+├── data
+│   ├── numberplates.json
+│   └── numberplates.txt
+├── functions
+│   ├── data.js
+│   └── health.js
+├── package-lock.json
+├── package.json
+├── public
 │   ├── 404.html
-│   ├── Index.html
-│   ├── script.js 
-│   └── style.css 
-├── scripts 
-│   ├── convertToJson.py 
-│   └── generate-release-notes.sh 
-└── server.js 
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── script.js
+│   ├── site.webmanifest
+│   └── style.css
+├── scripts
+│   └── generate-release-notes.sh
+└── wrangler.jsonc
 ```
 
 ---
@@ -73,33 +76,42 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
    &&
    cd CityByPlate
    ```
-   
-2. **Generate a SSL certificate (Only the first time)**
+
+2. **Go to the `dev` branch** 
 
     ```bash
-   openssl req -nodes -new -x509 -keyout server.key -out server.cert
+    git checkout dev 
     ```
-   You can just press "." and enter to all the questions asked.
+   
+3. **Generate a SSL certificate (Only the first time)**
 
+    ```bash
+    chmod +x ./scripts/cert.sh 
+    ```
+    Gives [cert.sh](https://github.com/Schousboe/CityByPlate/blob/dev/scripts/cert.sh) permission to be executed  
+    ```bash
+    ./scripts/cert.sh 
+    ```
+    Execute cert.sh
 
-3. **Start a local HTTPS server**
+4. **Start up a local HTTPS server**
    
    ```bash
    node server.js
    ```
    The terminal should display:
     ```bash
-   HTTPS Server running at https://localhost:8443
+   HTTPS Server running at https://localhost:8443 # If localhost:8443 is already in use, it will use another
     ```
   
-4. **Open your web browser**
+5. **Open your web browser**
 
      Open [https://localhost:8443](https://localhost:8443) in your browser.
 
 
-5. **Enter a license plate abbreviation and the result will be displayed immediately.** 
+6. **Enter a license plate abbreviation and the result will be displayed immediately.** 
   
-    Enter an abbreviation like `B` for Berlin or `M` for Munich and click "Search" and watch the magic happen!
+    Enter an abbreviation like `B` for Berlin or `M` for Munich, click "Search" and watch the magic happen!
 
 ---
 
@@ -113,17 +125,6 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
 
 4. If a match is found, the city or region name is displayed; otherwise, an error message appears.
 
-Example:
-
-```
-    if (data[input]) {
-      const template = translations[currentLanguage].resultTemplate;
-      result.textContent = template.replace("{input}", input).replace("{city}", data[input]);
-    } 
-    else {
-      error.textContent = translations[currentLanguage].unknown;
-    }
-```
 ---
 
 ## Future Improvements
@@ -142,14 +143,5 @@ Please leave an issue or PR on some of this, if you wanna help.
 
 This project is licensed under the [MIT License](LICENSE).
 You are free to use, modify, and distribute it for personal or commercial purposes.
-
----
-
-## Author
-
-**Developed by:** Schousboe development <br/>
-**Language:** Danish, english and german <br/>
-**Purpose:** Educational and reference project for identifying German vehicle registration codes. <br>
-<br>
 
 <div align="center"><sub>Made with ❤ by <a target="_blank" href="https://github.com/Schousboe">Schousboe</sub><a>
