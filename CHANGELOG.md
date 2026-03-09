@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 - Display document.title at all times
 - Forgot to add betterlytics.io script to 404.html
 
+### Documentation
+
+- Work trough README to be up to date with V1.3.0
+
 ### Features
 
 - Add health.js for a JSON response at /health
@@ -27,9 +31,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 9 commit(s) contributed to the release.
+- 10 commit(s) contributed to the release.
 - 28 day(s) passed between the first and last commit.
-- 8 commit(s) parsed as conventional.
+- 9 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 32 day(s) passed between releases.
 
