@@ -18,6 +18,7 @@ All notable changes to this project will be documented in this file.
 
 - Add forgotten readme update to cloudflare-hosting
 - Add analytics with betterlytics.io
+- Remove scripts only needed for development
 
 ### Other (unconventional)
 
@@ -26,11 +27,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 8 commit(s) contributed to the release.
-- 27 day(s) passed between the first and last commit.
-- 7 commit(s) parsed as conventional.
+- 9 commit(s) contributed to the release.
+- 28 day(s) passed between the first and last commit.
+- 8 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 31 day(s) passed between releases.
+- 32 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
