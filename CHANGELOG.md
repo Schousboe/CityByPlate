@@ -25,6 +25,7 @@ All notable changes to this project will be documented in this file.
 - Add analytics with betterlytics.io
 - Remove scripts only needed for development
 - Forced deploy for cf after branch change
+- Update status.html with meta and link tags as other HTML files
 
 ### Other (unconventional)
 
@@ -33,9 +34,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 12 commit(s) contributed to the release.
+- 13 commit(s) contributed to the release.
 - 29 day(s) passed between the first and last commit.
-- 11 commit(s) parsed as conventional.
+- 12 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 33 day(s) passed between releases.
 
