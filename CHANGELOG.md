@@ -27,6 +27,7 @@ All notable changes to this project will be documented in this file.
 - Forced deploy for cf after branch change
 - Update status.html with meta and link tags as other HTML files
 - Move convertToJson.py to main as dev will be deleted
+- Update status page with redirect message
 
 ### Other (unconventional)
 
@@ -35,9 +36,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 14 commit(s) contributed to the release.
+- 15 commit(s) contributed to the release.
 - 29 day(s) passed between the first and last commit.
-- 13 commit(s) parsed as conventional.
+- 14 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 33 day(s) passed between releases.
 
