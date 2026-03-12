@@ -28,6 +28,7 @@ All notable changes to this project will be documented in this file.
 - Update status.html with meta and link tags as other HTML files
 - Move convertToJson.py to main as dev will be deleted
 - Update status page with redirect message
+- Add CWV to analytics tool
 
 ### Other (unconventional)
 
@@ -36,11 +37,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 15 commit(s) contributed to the release.
-- 29 day(s) passed between the first and last commit.
-- 14 commit(s) parsed as conventional.
+- 16 commit(s) contributed to the release.
+- 31 day(s) passed between the first and last commit.
+- 15 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 33 day(s) passed between releases.
+- 35 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
