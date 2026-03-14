@@ -35,13 +35,17 @@ All notable changes to this project will be documented in this file.
 - Delete .release-it.json as another alternative already exists in the codebase
 - Migrate Node server to Cloudflare Pages functions
 
+### Styling
+
+- Use flags instead of language names in switcher
+
 ### Commit Statistics
 
-- 16 commit(s) contributed to the release.
-- 31 day(s) passed between the first and last commit.
-- 15 commit(s) parsed as conventional.
+- 17 commit(s) contributed to the release.
+- 33 day(s) passed between the first and last commit.
+- 16 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 35 day(s) passed between releases.
+- 37 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
