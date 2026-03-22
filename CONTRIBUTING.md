@@ -22,19 +22,6 @@ If you are unsure whether something is worth contributing, feel free to open an 
 
 ---
 
-## Development Workflow
-
-CityByPlate uses a simple development workflow based on Git branches.
-
-### Branches
-
-- `main` - stable production branch  
-- `dev` - quick test  
-
-All contributions should be based on the **`dev` branch**.
-
----
-
 ## Setting Up the Project
 
 1. **Clone the repository**
@@ -50,23 +37,16 @@ cd CityByPlate
 git remote add upstream https://github.com/Schousboe/CityByPlate.git
 ```
 
-3. **Switch to the development branch**
+3. **Install Wrangler**
 
 ```bash
-git checkout dev
+npm install -g wrangler
 ```
 
-4. **Generate the SSL certificate (first time only)**
+4. **Run the server**
 
 ```bash
-chmod +x ./scripts/cert.sh
-./scripts/cert.sh
-```
-
-5. **Start a local HTTPS server**
-
-```bash
-node server.js
+npx wrangler pages dev
 ```
 
 **Now, you just open [localhost:8443](https://localhost:8443) and it's ready** 
@@ -78,7 +58,7 @@ node server.js
 ### Dataset
 
 The finalized license plate dataset is stored in `data/numberplates.json`. This file is generated automatically and should _not_ be edited manually. 
-The JSON is produced by running the [convertToJson Python script](https://github.com/Schousboe/CityByPlate/blob/dev/scripts/convertToJson.py), 
+The JSON is produced by running the [convertToJson Python script](https://github.com/Schousboe/CityByPlate/blob/main/scripts/convertToJson.py), 
 Which converts the raw dataset from numberplates.txt into a structured JSON format used by CBP.
 
 To prevent formatting errors or inconsistencies, all dataset edits should be made in `data/numberplates.txt` and then, after making changes, run the conversion script to regenerate the JSON file.
@@ -107,7 +87,7 @@ All the serverless endpoints to cloudflare are located in
 
 `/functions`
 
-There are eg. `data.js`, which returs the [dataset](data/numberplates.json) and `health.js` which is a health endpoint for [the uptime monitor](citybyplate.pages.dev/status).
+There are eg. `data.js`, which returs the [dataset](data/numberplates.json) and `health.js` which is a health endpoint for [the uptime monitor](https://citybyplate.pages.dev/status).
 
 Possible improvements could be caching, performance optimizations and additional API endpoints, but generally there shouldn't be any changes in here without talking with the owner first.
 
