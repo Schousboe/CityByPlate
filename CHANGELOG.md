@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 
 - Work trough README to be up to date with V1.3.0
 - Add CONTRIBUTING.md with instructions on project
+- Change mistake in git branches and setup sections
 
 ### Features
 
@@ -42,9 +43,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 18 commit(s) contributed to the release.
+- 19 commit(s) contributed to the release.
 - 41 day(s) passed between the first and last commit.
-- 17 commit(s) parsed as conventional.
+- 18 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 45 day(s) passed between releases.
 
