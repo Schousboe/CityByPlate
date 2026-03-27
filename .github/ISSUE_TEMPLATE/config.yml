@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: CityByPlate Website
+    url: https://citybyplate.pages.dev
+    about: Explore the live project, dataset, and features.
+
+  - name: Questions & Discussions
+    url: https://github.com/Schousboe/CityByPlate/discussions
+    about: Ask questions, share ideas, or start discussions.
+
+  - name: Read the live-updating Changelog
+    url: https://github.com/Schousboe/CityByPlate/blob/main/CHANGELOG.md
+    about: See recent updates, new features, and improvements.
+
+  - name: Report Security Issue
+    url: https://github.com/Schousboe/CityByPlate/security/advisories/new
+    about: Report vulnerabilities privately. Do NOT open public issues for security problems.

@@ -1,0 +1,104 @@
+name: Feature Request
+description: Suggest a new feature or improvement for CityByPlate.
+assignees: Schousboe
+labels: enhancement
+title: "[FEATURE]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature for CityByPlate.
+        Please be as clear and detailed as possible so it can be evaluated and implemented efficiently.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe the exact feature you want added or improved in CityByPlate.
+      placeholder: What should be built?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Use Case
+      description: What problem does this solve? When would this be used?
+      placeholder: Explain the context or scenario where this feature is needed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_impact
+    attributes:
+      label: User Impact
+      description: How does this improve the experience for users of CityByPlate?
+      placeholder: What gets easier, faster, or better?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature_area
+    attributes:
+      label: Feature Area
+      description: Which part of CityByPlate does this relate to?
+      multiple: true
+      options:
+        - Frontend (UI/UX)
+        - Backend / API
+        - Dataset (numberplates.json)
+        - Performance
+        - Security
+        - Localization / Language
+        - Infrastructure (Cloudflare / Workers / Pages)
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: cost_of_not_doing
+    attributes:
+      label: Cost of Not Implementing
+      options:
+        - label: Worse user experience
+        - label: Lower data quality
+        - label: Security risks
+        - label: Performance limitations
+        - label: Limits future features
+        - label: Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution_ideas
+    attributes:
+      label: Suggested Implementation (optional)
+      description: If you have ideas on how this could be built (API changes, schema updates, UI ideas, etc.), describe them here.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information, links, or examples that could help understand the request.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Request Expectations
+      description: Confirm your request is clear and constructive.
+      options:
+        - label: I confirm that my request is clear and constructive.
+          required: true
