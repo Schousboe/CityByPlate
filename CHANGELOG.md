@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - Remove the file changes section from release body
 - Display document.title at all times
 - Forgot to add betterlytics.io script to 404.html
+- Fix language-switcher labels to match rest of pages
 
 ### Documentation
 
@@ -44,11 +45,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 20 commit(s) contributed to the release.
-- 46 day(s) passed between the first and last commit.
-- 19 commit(s) parsed as conventional.
+- 21 commit(s) contributed to the release.
+- 158 day(s) passed between the first and last commit.
+- 20 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 50 day(s) passed between releases.
+- 162 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
