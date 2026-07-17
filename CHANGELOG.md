@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Display document.title at all times
 - Forgot to add betterlytics.io script to 404.html
 - Fix language-switcher labels to match rest of pages
+- Make error messages more polite
 
 ### Documentation
 
@@ -45,9 +46,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 21 commit(s) contributed to the release.
+- 22 commit(s) contributed to the release.
 - 158 day(s) passed between the first and last commit.
-- 20 commit(s) parsed as conventional.
+- 21 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 162 day(s) passed between releases.
 
