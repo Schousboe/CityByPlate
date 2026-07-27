@@ -2,11 +2,14 @@ A - Augsburg, Bavaria
 AA - Aalen & Ostalbkreis, Baden-Württemberg
 AB - Aschaffenburg, Bavaria
 ABG - Altenburger Land, Thuringia
+ABI - Anhalt-Bitterfield, Saxony-Anhalt
 AC - Aachen, North-Rhine-Westphalia
+AD - U.S. Forces in Germany
 AH - Ahaus, North-Rhine-Westphalia
 AIB - Bad Aibling, Bavaria
 AIC - Aichach-Friedberg, Bavaria
 AE - Auerbach, Saxony
+AF - Armed Forces
 AK - Altenkirchen (Westerwald), Rhineland Palatinate
 AL - Altena, North-Rhine-Westphalia
 ALF - Alfeld, Lower Saxony
@@ -174,6 +177,7 @@ ER - Erlangen, Bavaria
 ERB - Erbach & Oldenwaldkreis, Hesse
 ERH - Erlangen-Höchstadt, Bavaria
 ERK - Erkelenz, North-Rhine-Westphalia
+ERZ - Erzgebirgskreis, Saxony
 ES - Esslingen, Baden-Württemberg
 ESA - Eisenach, Thuringia
 ESB - Eschenbach, Bavaria
@@ -287,8 +291,8 @@ HIG - Heiligenstadt, Thuringia
 HIP - Hilpoltstein, Bavaria
 HK - Heidekreis, Lower Saxony
 HL - Hansestadt Lübeck
-HM - Hamelin(Hameln)-Pyrmont, Lower Saxony
-HMU - Hanoversch Münden, Lower Saxony
+HM - Hameln-Pyrmont, Lower Saxony
+HMÜ - Hannoverisch Münden, Lower Saxony
 HN - Heilbronn, Baden-Württemberg
 HO - Hof, Bavaria
 HOG - Hofgeismar, Hesse
@@ -313,7 +317,8 @@ HW - Halle Westfalen, North-Rhine-Westphalia
 HWI - Hansestadt Wismar, Mecklenburg-Vorpommern
 HX - Höxter, North-Rhine-Westphalia
 HY - Hoyerswerda, Saxony
-HZ - Herzberg, Brandenburg
+HZ - Harzkreis, Saxony-Anhalt
+IF - Official and civilian-military vehicles of the US Armed Forces in Germany
 IGB - Stadt St Ingbert & Saar-Pfalz-Kreis, Saarland
 IK - Ilm-Kreis, Thuringia
 IL - Ilmenau, Thuringia
@@ -351,7 +356,7 @@ KN - Constance (Konstanz), Baden-Württemberg
 KO - Koblenz, Rhineland Palatinate
 KÖN - Kötzting, Bavaria
 KÖT - Köthen, Saxony-Anhalt
-KOZ - Kotzting
+KÖZ - Kotzting, Bavaria
 KR - Krefeld, North-Rhine-Westphalia
 KRU - Krumbach, Bavaria
 KS - Kassel, Hesse
@@ -396,6 +401,7 @@ LOH - Lohr am Main, Bavaria
 LOS - Landkreis Oder-Spree, Brandenburg
 LP - Lippstadt, North-Rhine-Westphalia
 LR - Lahr, Baden-Württemberg
+LRO - Landkreis Rostock, Mecklenburg-Vorpommern
 LS - Lüdenscheid, North-Rhine-Westphalia
 LSA - Saxony Anhalt State official vehicles
 LSN - Saxony State official vehicles
@@ -404,6 +410,7 @@ LU - Ludwigshafen am Rhein, Rhineland Palatinate
 LÜD - Lüdenscheid, North-Rhine-Westphalia
 LUK - Luckenwalde, Brandenburg
 LÜN - Lünen, North-Rhine-Westphalia
+LUP - Ludwigslust-Parchim, Mecklenburg-Vorpommern
 LWL - Ludwigslust, Mecklenburg-Vorpommern
 M - Munich (München), Bavaria
 MA - Mannheim, Baden-Württemberg
@@ -445,6 +452,8 @@ MOS - Mosbach & Neckar-Odenwald-Kreis, Baden-Württemberg
 MQ - Merseburg-Querfurt, Saxony-Anhalt
 MR - Marburg-Biedenkopf, Hesse
 MS - Münster, North-Rhine-Westphalia
+MSE - Mecklenburgische Seenplatte, Mecklenburg-Vorpommern
+MSH - Mansfeld-Südharz (Sangerhausen), Saxony-Anhalt
 MSP - Main-Spessart-Kreis, Bavaria
 MST - Mecklenburg-Strelitz, Mecklenburg-Vorpommern
 MT - Montabaur, Rhineland Palatinate
@@ -556,6 +565,7 @@ PW - Pasewalk, Mecklenburg-Vorpommern
 PZ - Prenzlau, Brandenburg
 QFT - Querfurt, Saxony Anhalt
 QLB - Quedlinburg, Saxony-Anhalt
+QQ - US Forces in Germany on the way back to USA
 R - Regensberg, Bavaria
 RA - Ratstatt, Baden-Württemberg
 RC - Reichenbach, Saxony
@@ -582,6 +592,7 @@ ROL - Rottenburg Laaber, Bavaria
 ROS - Rostock Land, Mecklenburg-Vorpommern
 ROT - Rothenburg ob der Tauber, Bavaria
 ROW - Rotenburg (Wümme) & Bremervörde, Lower Saxony
+RP - Rhein-Pfalz-Kreis, Rhineland-Palatinate
 RPL - Rhineland Palatinate State official vehicles
 RS - Remscheid, North-Rhine-Westphalia
 RSL - Roßlau, Saxony Anhalt
@@ -676,7 +687,8 @@ SY - Syke, Lower Saxony
 SZ - Salzgitter, Lower Saxony
 SZB - Schwarzenberg, Saxony
 TBB - Tauberbischofsheim & Main-Tauber-Kreis, Baden-Württemberg
-TE - Teterow, Mecklenburg-Vorpommern
+TDO - Nordsachsen, Saxony
+TET - Teterow, Mecklenburg-Vorpommern
 TF - Teltow-Fläming, Brandenburg
 TG - Torgau, Saxony
 TGO - Thurgau-Oschatz
@@ -707,6 +719,7 @@ VAI - Vaihingen, Baden-Württemberg
 VB - Vogelsbergkreis, Hesse
 VEC - Vechta, Lower Saxony
 VER - Verden, Lower Saxony
+VG - Vorpommern-Greifswald, Mecklenburg-Vorpommern
 VIB - Vilsbiburg, Bavaria
 VIE - Viersen, North-Rhine-Westphalia
 VIT - Viechtach, Bavaria
@@ -769,7 +782,7 @@ WTL - Wittlage, Lower Saxony
 WTM - Wittmund, Lower Saxony
 WÜ - Würzburg, Bavaria
 WUG - Weißenburg-Gunzenhausen, Bavaria
-WUM - Waldmünchen, Bavaria
+WÜM - Waldmünchen, Bavaria
 WUN - Wunsiedel am Fichtelgebirge, Bavaria
 WUR - Wurzen, Saxony
 WW - Westerwaldkreis, Rhineland Palatinate
