@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file.
 
 ### Bug Fixes
 
+- Improve mobile responsiveness
+
+### Commit Statistics
+
+- 1 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 1 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+
+## 1.4.0 - 2026-11-21
+
+### Bug Fixes
+
 - Remove the file changes section from release body
 - Display document.title at all times
 - Forgot to add betterlytics.io script to 404.html
