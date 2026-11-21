@@ -18,6 +18,7 @@ All notable changes to this project will be documented in this file.
 - Add CONTRIBUTING.md with instructions on project
 - Change mistake in git branches and setup sections
 - Add feature request template and config for issues
+- Clean up and clear mistakes in README
 
 ### Features
 
@@ -47,11 +48,11 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 23 commit(s) contributed to the release.
-- 168 day(s) passed between the first and last commit.
-- 22 commit(s) parsed as conventional.
+- 24 commit(s) contributed to the release.
+- 285 day(s) passed between the first and last commit.
+- 23 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 172 day(s) passed between releases.
+- 289 day(s) passed between releases.
 
 ## 1.3.0 - 2026-02-05
 
