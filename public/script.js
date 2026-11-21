@@ -57,6 +57,12 @@ function setLanguage(lang) {
 
   const backBtn = document.querySelector('.backHomeButton');
   if (backBtn) backBtn.textContent = translations[lang].backHomeBtn;
+
+  try {
+    localStorage.setItem('cbp-language', lang);
+  } catch (error) {
+    console.warn('Could not save language preference:', error);
+  }
 }
 
 
@@ -100,3 +106,14 @@ document.getElementById('input')?.addEventListener('keydown', event => {
     findCity()
   }
 })
+
+try {
+  const savedLanguage = localStorage.getItem('cbp-language');
+
+  if (savedLanguage && Object.hasOwn(translations, savedLanguage)) {
+    document.getElementById('languageDropdown').value = savedLanguage;
+    setLanguage(savedLanguage);
+  }
+} catch (error) {
+  console.warn('Could not restore language preference:', error);
+}
