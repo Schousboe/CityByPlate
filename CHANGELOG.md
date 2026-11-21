@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file.
 - Move convertToJson.py to main as dev will be deleted
 - Update status page with redirect message
 - Add CWV to analytics tool
+- Change statuspage-hoster to betterlytics
 
 ### Other (unconventional)
 
@@ -49,9 +50,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 25 commit(s) contributed to the release.
+- 26 commit(s) contributed to the release.
 - 285 day(s) passed between the first and last commit.
-- 24 commit(s) parsed as conventional.
+- 25 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 289 day(s) passed between releases.
 
