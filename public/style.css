@@ -38,6 +38,7 @@ body {
   font-weight: 500;
   box-shadow: 0 2px 8px rgba(44,62,80,0.08);
   cursor: pointer;
+  min-height: 40px;
   transition: border-color 0.2s, box-shadow 0.2s;
   appearance: none;
   -webkit-appearance: none;
@@ -142,7 +143,7 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(120deg, #5C6BC0, #7986CB);
+  background: linear-gradient(120deg, #5C6BC0, #626FC3);
   color: #fff;
   cursor: pointer;
   overflow: hidden;
@@ -195,6 +196,11 @@ a {
 .error {
   margin-top: 1rem;
   color: #D32F2F;
+}
+
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
 }
 
 @media (max-width: 480px) {

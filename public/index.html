@@ -26,10 +26,10 @@
       </select>
     </div>
     <h1 class="heading">Enter a city abbreviation</h1>
-    <input id="input" placeholder="e.g. HH, B, M" />
+    <input id="input" aria-label="License-plate city code" placeholder="e.g. HH, B, M" />
     <button id="searchButton" onclick="findCity()">Search</button>
-    <div id="result" class="result"></div>
-    <div id="error" class="error"></div>
+    <div id="result" class="result" aria-live="polite"></div>
+    <div id="error" class="error" role="alert"></div>
   </div>
 
 <script src="script.js"> </script>
