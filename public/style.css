@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -9,8 +15,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100svh;
   margin: 0;
+  padding: 1rem;
 }
 
 .language-switcher {
@@ -110,8 +118,10 @@ body {
 }
 
 input {
-  width: 90%;
+  width: 100%;
+  min-width: 0;
   padding: 0.8rem 1rem;
+  min-height: 48px;
   font-size: 1rem;
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -185,4 +195,31 @@ a {
 .error {
   margin-top: 1rem;
   color: #D32F2F;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem 1.25rem;
+    border-radius: 12px;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .language-switcher {
+    top: auto;
+    right: auto;
+    position: relative;
+  }
+}
+
+@media (max-height: 500px) {
+  body {
+    align-items: flex-start;
+  }
 }
