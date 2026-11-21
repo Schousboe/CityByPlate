@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Bug Fixes
 
 - Take care of people who prefer reduced motion
+- Make sure currentLanguage matches in both HTML and JS
 
 ### Features
 
@@ -14,9 +15,9 @@ All notable changes to this project will be documented in this file.
 
 ### Commit Statistics
 
-- 2 commit(s) contributed to the release.
+- 3 commit(s) contributed to the release.
 - 0 day(s) passed between the first and last commit.
-- 2 commit(s) parsed as conventional.
+- 3 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 
 ## 1.4.1 - 2026-11-21
