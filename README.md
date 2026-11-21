@@ -32,41 +32,6 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
 
 ---
 
-## Project Structure
-
-```
-. 
-├── CHANGELOG.md
-├── LICENSE
-├── README.md
-├── cliff.toml
-├── data
-│   ├── numberplates.json
-│   └── numberplates.txt
-├── functions
-│   ├── data.js
-│   └── health.js
-├── package-lock.json
-├── package.json
-├── public
-│   ├── 404.html
-│   ├── android-chrome-192x192.png
-│   ├── android-chrome-512x512.png
-│   ├── apple-touch-icon.png
-│   ├── favicon-16x16.png
-│   ├── favicon-32x32.png
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── script.js
-│   ├── site.webmanifest
-│   └── style.css
-├── scripts
-│   └── generate-release-notes.sh
-└── wrangler.jsonc
-```
-
----
-
 ## Usage
 
 1. **Clone the repository**
@@ -77,33 +42,24 @@ Users can enter a license plate abbreviation (for example, `HH`, `B`, or `M`) an
    cd CityByPlate
    ```
 
-2. **Go to the `dev` branch** 
+2. **Add upstream repository** 
 
     ```bash
-    git checkout dev 
+    git remote add upstream https://github.com/Schousboe/CityByPlate.git
     ```
    
-3. **Generate a SSL certificate (Only the first time)**
+3. **Install Wrangler**
 
     ```bash
-    chmod +x ./scripts/cert.sh 
+    npm install -g wrangler # This will install wrangler globally, remove "-g" if you don't want  it global
     ```
-    Gives [cert.sh](https://github.com/Schousboe/CityByPlate/blob/dev/scripts/cert.sh) permission to be executed  
-    ```bash
-    ./scripts/cert.sh 
-    ```
-    Execute cert.sh
 
-4. **Start up a local HTTPS server**
-   
-   ```bash
-   node server.js
-   ```
-   The terminal should display:
+4. **Start up the beauty**
+
     ```bash
-   HTTPS Server running at https://localhost:8443 # If localhost:8443 is already in use, it will use another
+    npx wrangler pages dev
     ```
-  
+
 5. **Open your web browser**
 
      Open [https://localhost:8443](https://localhost:8443) in your browser.
